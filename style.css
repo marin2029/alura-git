@@ -1,43 +1,100 @@
-.titulop{
-    margin: 30px;
+header{
+    background-color:rgb(238, 236, 236);
 }
-.titulo{
-    text-align: center;
+
+.caja{
+    width: 940px;
+    position:inherit;
+    margin: 0px auto;
+   
 }
-#fondo{
-    width: 80%;
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li{
+    display:inline;
+    margin: 0 0 0 15px;
+}
+.forma{
     height: 200px;
+    
 }
-.fond{
-    width: 50%;
-    height: 250px;
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    font-size: 22px;
+    text-decoration:none;
 }
-
-.principal{
-    background-color:whitesmoke;
-    padding: 20px;
+nav a:hover{
+    color: blueviolet;
+    text-decoration: underline;
 }
-p{
+.productos{
+    width: 940px;
+    margin: 0px auto;
+    padding: 50px;
+}
+.productos li{
+   display:inline-block;  
+   text-align: center;
+   width: 30%;
+   vertical-align: top;
+   margin: 0 1.5%;
+   padding: 30px 20px ;
+   box-sizing:border-box;
+   border: 2px black solid;
+    border-radius: 10px;
+}
+.productos li:hover{
+    border-color: blueviolet;
+}
+.productos li:active{
+    border-color: chartreuse;
+}
+.productos li:hover h2{
+    font-size: 35px;
+}
+.productos h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+.producto-d{
+    font-size: 18px; 
+    margin-top: 10px;
+}
+footer{
     text-align: center;
+    background:url(baner/bg.jpg);
+    padding: 40px;;
+
 }
-.tituloc{
-    color:white;
-text-align:center;background-color:darkslategray ;
-}
-strong{
-    color: red;
-}  
-.diferencia{
-    background-color:#cccccc;
-    padding: 20px;
+.copy{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
 }
 
-.item{
-    font-style: italic;
+main{
+    width: 940px ;
+    margin: 0 auto;
 }
-ul{
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+form{
+    margin: 40px 0;
+
+}
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+form input{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
 }
