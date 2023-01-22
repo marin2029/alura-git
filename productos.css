@@ -1,0 +1,79 @@
+header{
+    background-color:rgb(238, 236, 236);
+}
+
+.caja{
+    width: 940px;
+    position:inherit;
+    margin: 0px auto;
+   
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li{
+    display:inline;
+    margin: 0 0 0 15px;
+}
+.forma{
+    height: 200px;
+    
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    font-size: 22px;
+    text-decoration:none;
+}
+nav a:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
+.productos{
+    width: 940px;
+    margin: 0px auto;
+    padding: 50px;
+}
+.productos li{
+   display:inline-block;  
+   text-align: center;
+   width: 30%;
+   vertical-align: top;
+   margin: 0 1.5%;
+   padding: 30px 20px ;
+   box-sizing:border-box;
+   border: 2px black solid;
+    border-radius: 10px;
+}
+.productos li:hover{
+    border-color: blueviolet;
+}
+.productos li:active{
+    border-color: chartreuse;
+}
+.productos li:hover h2{
+    font-size: 35px;
+}
+.productos h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+.producto-d{
+    font-size: 18px; 
+    margin-top: 10px;
+}
+footer{
+    text-align: center;
+    background:url(baner/bg.jpg);
+    padding: 40px;;
+
+}
+.copy{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+}
